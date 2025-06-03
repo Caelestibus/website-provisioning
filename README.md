@@ -1,4 +1,4 @@
-# website-provisioning
+# website-provisioning/setup (made easy)
 
 A swift walk through on how to upload a website to a server using Vagrant
 
