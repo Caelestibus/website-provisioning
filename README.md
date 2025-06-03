@@ -1,12 +1,6 @@
 # website-provisioning
+
 A swift walk through on how to upload a website to a server using Vagrant
-
----
-
-
-# website-provisioning
-
-A swift walk-through on how to upload a website to a server using Vagrant.
 
 ---
 
@@ -19,6 +13,7 @@ A swift walk-through on how to upload a website to a server using Vagrant.
 
 ---
 
+
 ## 🚀 Step-by-Step Setup Instructions
 
 ### Tips
@@ -26,6 +21,7 @@ A swift walk-through on how to upload a website to a server using Vagrant.
 - Install a website template for test purpose from https://www.tooplate.com/ or use your website
 
 ---
+
 
 ### Run
 
@@ -49,6 +45,7 @@ wget https://www.tooplate.com/zip-templates/2135_mini_finance.zip
 
   ---
 
+
 ### 1. Go into your vagrant file, and enter your operating system and run all commands as a root user
 
 ```bash
@@ -57,6 +54,7 @@ vagrant ssh
 sudo -i
 ```
 ---
+
 
 ### 2. Go to /tmp and Confirm your file was succefully downloaded
 
@@ -71,6 +69,8 @@ ls
 ```
 
 ---
+
+
 ### 3. Copy Project Files to Apache's Web Directory
 ```bash
 cp -r /tmp/2135_mini_finance/* /var/www/html/
@@ -82,6 +82,7 @@ Verify:
 ls /var/www/html/
 ```
 ---
+
 
 ### 4. Ensure Apache is Running
 Check Apache status:
@@ -96,6 +97,7 @@ sudo systemctl start httpd
 sudo systemctl enable httpd
 ```
 ---
+
 
 ### 5. Disable Firewall (If Applicable)
 Check firewalld status:
@@ -112,6 +114,7 @@ sudo systemctl disable firewalld
 ```
 ---
 
+
 ### 6. Get Local IP Address for Access
 
 ```bash
@@ -125,6 +128,8 @@ Look for an IP like:
 ```
 ---
 
+
+
 ### 🌐 Access the Site
 Open your browser and visit:
 
@@ -134,10 +139,12 @@ http://192.168.56.11
 ---
 
 
+
 ### You should now see the Mini Finance dashboard.
 ### ✅ Directory Structure
 
 - The following files should now exist under /var/www/html/:
+
 
 
 ABOUT THIS TEMPLATE.txt
@@ -155,13 +162,14 @@ wallet.html
 ```
 ---
 
-### 📌 Notes
+### 📌 For clarity sake
 
 - This guide assumes you’re using a NAT or host-only network adapter that maps to 192.168.x.x.
 
 - Apache serves from /var/www/html/ by default.
 
 - If you make changes to HTML or CSS, refresh the browser (no restart needed).
+
 
 
 ### To remove the login MOTD:
@@ -172,7 +180,6 @@ echo '' > /etc/motd
 ---
 
 
-### 🧠 Tips
 Use apachectl -k restart to restart the Apache server manually.
 ```
 Run tail -f /var/log/httpd/access_log or error_log for debugging.
@@ -181,3 +188,4 @@ Run tail -f /var/log/httpd/access_log or error_log for debugging.
 ---
 
 
+### Xoxo guys.
