@@ -141,7 +141,8 @@ http://192.168.56.11 (the IP address of your operating system)
 
 
 ### You should now see the Mini Finance dashboard.
-### ✅ Directory Structure
+
+- ✅ Directory Structure
 
 - The following files should now exist under /var/www/html/:
 
