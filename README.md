@@ -164,11 +164,11 @@ wallet.html
 
 ### 📌 For clarity sake
 
-- This guide assumes you’re using a NAT or host-only network adapter that maps to 192.168.x.x.
+- This quick quick run through assumes you’re using a Network Address Translation or a Host-Only adapter that maps to 192.168.x.x.
 
 - Apache serves from /var/www/html/ by default.
 
-- If you make changes to HTML or CSS, refresh the browser (no restart needed).
+- If you make changes to HTML or CSS, refresh the browser (no restart needed), bye besties.
 
 
 
