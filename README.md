@@ -124,7 +124,7 @@ ip a
 Look for an IP like:
 
 ```text
-192.168.56.11
+192.168.56.11 (the IP address of your operating system)
 ```
 ---
 
@@ -134,7 +134,7 @@ Look for an IP like:
 Open your browser and visit:
 
 ```
-http://192.168.56.11
+http://192.168.56.11 (the IP address of your operating system)
 ```
 ---
 
