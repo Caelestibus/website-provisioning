@@ -162,6 +162,7 @@ wallet.html
 ```
 ---
 
+
 ### 📌 For clarity sake
 
 - This quick quick run through assumes you’re using a Network Address Translation or a Host-Only adapter that maps to 192.168.x.x.
@@ -170,23 +171,8 @@ wallet.html
 
 - If you make changes to HTML or CSS, refresh the browser (no restart needed), bye besties.
 
-
-
-### To remove the login MOTD:
-
-```bash
-echo '' > /etc/motd
-```
 ---
 
-
-
-Use apachectl -k restart to restart the Apache server manually.
-```
-Run tail -f /var/log/httpd/access_log or error_log for debugging.
-```
-
----
 
 
 ### Xoxo guys.
