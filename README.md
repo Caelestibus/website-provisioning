@@ -147,8 +147,9 @@ http://192.168.56.11 (the IP address of your operating system)
 - The following files should now exist under /var/www/html/:
 
 
+---
 
-ABOUT THIS TEMPLATE.txt
+About this template.txt
 ```
 css/
 fonts/
