@@ -180,6 +180,7 @@ echo '' > /etc/motd
 ---
 
 
+
 Use apachectl -k restart to restart the Apache server manually.
 ```
 Run tail -f /var/log/httpd/access_log or error_log for debugging.
